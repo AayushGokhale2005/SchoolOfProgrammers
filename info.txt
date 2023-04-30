@@ -1,0 +1,36 @@
+Address
+-country : String
+-State/province : String
+-Street Adress : String
+-postalCode : String
+
+
+Person(Base Class)
+-firstName : String
+-LastName : String
+-dateOfBirth:date
+-phoneNumber:String
+
+
+Students
+-international:boolean
+-isPartTime():boolean
+-isOnProbation:boolean
+
+Professors
+-salary:float
+
+
+Course
+-name:Stirng
+-code:String
+-minStudents:int
+-maxStudents:int
+-isCancelled:Boolean
+start:date
+end:date
+
+
+Enrol
+-date:date
+-grade:float
